@@ -1,6 +1,8 @@
 
 import { Duplex } from 'stream';
 
+
+//object literal Approach
 const duplexStream = new Duplex({
 
     write(chunk , encoding , callback) {
