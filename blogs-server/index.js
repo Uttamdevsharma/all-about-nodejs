@@ -9,8 +9,13 @@ const server = http.createServer((req,res) => {
 
     if(url === "/"){
         res.end("Welcome to the Blog Home Page")
-    } else if(url === " /blogs"){
-        res.end("Display")
+    } else if(url === "/blogs"){
+        res.end("Displaying all blogs here...")
+    } else if(url.startsWith("/blogs/")){
+        const postId = url.split("/")[2]
+        res.end(`"id" : ${postId} "title" : "Post Title" , "body" : "kdkjajkdkajdkjkbjdhd jhjhjhd"`)
+    } else{
+        res.end("404 - Not Found")
     }
 })
 
