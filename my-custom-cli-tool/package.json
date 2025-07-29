@@ -1,0 +1,16 @@
+{
+  "name": "cli-tool-codetutor1-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin" : {
+    "cli-tool-codetutor1-project": "index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
