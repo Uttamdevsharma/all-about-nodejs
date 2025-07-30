@@ -1,0 +1,21 @@
+{
+  "name": "utilitex",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "utilitex",
+    "npm package"
+  ],
+  "bin" : {
+    "utilitex" : "./src/index.js"
+  },
+  "author": "Uttam kumar devsharma",
+  "license": "ISC",
+  "description": "This is a simple real world practical project like Lodash",
+  "devDependencies": {
+    "jest": "^30.0.5"
+  }
+}
