@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 
 const { chunk } = require("./utils/array.js");
-const {add,multiply} = require('./utils/math.js')
+const {add,multiply, formatSmartNumber} = require('./utils/math.js')
 
 module.exports={
     chunk,
     add,
-    multiply
+    multiply,
+    formatSmartNumber
 }

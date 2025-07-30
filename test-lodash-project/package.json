@@ -10,6 +10,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "utilitex": "^1.1.1"
+    "utilitex": "^1.2.0"
   }
 }
