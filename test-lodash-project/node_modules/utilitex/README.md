@@ -32,6 +32,20 @@ console.log(chunkedArray);
 
 Returns a new array containing the chunked arrays.
 
+### `add(a, b)`
+
+-   `a` (number): The first number.
+-   `b` (number): The second number.
+
+Returns the sum of the two numbers.
+
+### `multiply(a, b)`
+
+-   `a` (number): The first number.
+-   `b` (number): The second number.
+
+Returns the product of the two numbers.
+
 ## Testing
 
 To run the tests for this project, use the following command:
